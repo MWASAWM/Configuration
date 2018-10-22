@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "git add -A"
+git add -A
+echo "git commit"
+comment="commit new code"
+read comment
+git commit -m "$comment"
+echo "git push origin master:master"
+git push -u  origin master
