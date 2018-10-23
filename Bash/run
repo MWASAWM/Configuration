@@ -1,7 +1,21 @@
 #!/bin/bash
 
-cppname=$1
-outname=${cppname%.*}
-outname=$outname".out"
-g++ $cppname -o $outname
-./$outname
+filename=${1%.*}
+fileformat=${1##*.}
+
+if [ $fileformat == 'cpp' ]
+then
+	outname=$filename".out"
+	g++ $1 -o $outname
+	./$outname
+
+elif [ $fileformat == 'py' ]
+then
+	python3 $1
+
+elif [ $fileformat == 'java' ]
+then
+	javac $1
+	java $filename
+fi
+
