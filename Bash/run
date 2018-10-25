@@ -8,6 +8,7 @@ then
 	outname=$filename".out"
 	g++ $1 -o $outname
 	./$outname
+ 	rm $outname
 
 elif [ $fileformat == 'py' ]
 then
