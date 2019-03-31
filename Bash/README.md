@@ -77,3 +77,12 @@ do
 	let "int++"
 done
 ```
+
+
+
+## 5.git_free_password
+
+[Find file](https://github.com/MWASAWM/Configuration/find/master)Copy path
+
+
+  
