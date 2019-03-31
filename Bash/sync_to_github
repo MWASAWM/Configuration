@@ -1,10 +1,10 @@
-#!/bin/bash
+﻿#!/bin/bash
 
 echo "git add ."
 git add .
 
 echo "git commit"
-echo "请输入commit的注释信息:"
+echo "Please enter comments for commit:"
 comment="commit new code"
 read comment
 git commit -m "$comment"
