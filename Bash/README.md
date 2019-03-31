@@ -82,7 +82,6 @@ done
 
 ## 5.git_free_password
 
-[Find file](https://github.com/MWASAWM/Configuration/find/master)Copy path
+[git_free_password.txt](<https://github.com/MWASAWM/Configuration/blob/master/Bash/git_free_password.txt>)
 
 
-  
